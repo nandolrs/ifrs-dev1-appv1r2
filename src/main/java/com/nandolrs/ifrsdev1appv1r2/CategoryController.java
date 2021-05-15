@@ -18,7 +18,7 @@ public class CategoryController {
     @GetMapping(path="/teste")
     public @ResponseBody String getAllCategories() {
         // This returns a JSON or XML with the users
-        return "funcionou";
+        return "funcionou" ;
     }
 
 
